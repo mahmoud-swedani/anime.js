@@ -1,0 +1,120 @@
+body {
+  background-color: #272727;
+}
+
+.drow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  justify-items: center;
+}
+
+.squre {
+  margin: 15%;
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+}
+
+.level {
+  margin: 5%;
+  width: 20rem;
+  height: 5rem;
+  background-color: blue;
+}
+
+.row {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.el1 {
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  margin: 0.1rem;
+}
+
+.el2 {
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  margin: 0.1rem;
+}
+
+.el3 {
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  margin: 0.1rem;
+}
+
+.el4 {
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  margin: 0.1rem;
+}
+
+.el5 {
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  margin: 0.1rem;
+}
+
+.tags {
+  width: 5rem;
+  height: 5rem;
+  left: 100px;
+  opacity: .5;
+  background-color: pink;
+}
+
+.names {
+  left: 100px;
+  width: 5rem;
+  height: 5rem;
+  margin: 10%;
+  color: blue;
+}
+
+.row-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 50%;
+  background-color: burlywood;
+}
+
+.row-d * {
+  background-color: blue;
+  margin: 1em;
+  width: 2rem;
+  height: 2rem;
+}
+/*# sourceMappingURL=main.css.map */

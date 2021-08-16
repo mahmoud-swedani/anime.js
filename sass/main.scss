@@ -1,0 +1,106 @@
+body{
+    background-color: #272727;
+}
+
+.drow{
+
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    
+}
+
+.squre {
+    margin: 15%;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+}
+
+
+.level{
+    margin: 5%;
+    width: 20rem;
+    height: 5rem;
+    background-color: blue;   
+}
+.row{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+.el1{
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    margin: 0.1rem;
+
+}
+
+.el2{
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    margin: 0.1rem;
+
+}
+.el3{
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    margin: 0.1rem;
+
+}
+.el4{
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    margin: 0.1rem;
+
+}
+.el5{
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    margin: 0.1rem;
+
+}
+
+
+.tags {
+    width: 5rem;
+    height: 5rem;
+    left: 100px;
+    opacity: .5;
+    background-color: pink;
+}
+
+
+.names{
+    left: 100px;
+
+    width: 5rem;
+    height: 5rem;
+    margin: 10%;
+    color: blue;
+}
+
+.row-d{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    background-color: burlywood;
+}
+.row-d *{
+    background-color: blue;
+    margin: 1em;
+    width: 2rem;
+    height: 2rem;
+    }
+
